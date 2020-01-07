@@ -1,6 +1,6 @@
 # travis_rmd_test
 
-[![Build Status](https://travis-ci.com/rudeboybert/travis_rmd_test.svg?branch=master)](https://travis-ci.com/rudeboybert/travis_rmd_test)
+[![Build Status](https://travis-ci.com/hbeale/travis_rmd_test.svg?branch=master)](https://travis-ci.com/hbeale/travis_rmd_test)
 
 Automatically test if `.Rmd` R Markdown files "knit" ✅ or not  ❌ using travis-ci on GitHub. 
 
