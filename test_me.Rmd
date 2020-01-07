@@ -1,0 +1,39 @@
+---
+title: "Test me!"
+author: "Albert Y. Kim & Chester Ismay"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    highlight: tango
+    theme: cosmo
+    toc: yes
+    toc_depth: 2
+    toc_float:
+      collapsed: false
+    df_print: kable
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+library(fivethirtyeight)
+```
+
+## Plots
+
+```{r plot}
+# In this code block, test travis by uncommenting out this line
+# blah
+
+ggplot(hate_crimes, aes(x= median_house_inc, share_vote_trump)) +
+  geom_point()
+```
+
+```{r}
+# In this code block, test that all filepaths work
+file_path <- here("data", "dem_score.csv")
+dem_score <- read_csv(file_path)
+```
+
+
+
